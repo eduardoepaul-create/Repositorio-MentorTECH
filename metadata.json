@@ -1,0 +1,6 @@
+{
+  "name": "MentorTech - Aceleración de Líderes TI",
+  "description": "Programa ejecutivo para ingenieros y especialistas de TI: de experto técnico a líder estratégico con impacto en el negocio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
