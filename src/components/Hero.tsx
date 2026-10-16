@@ -121,45 +121,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onOpenVideo }) => {
             </a>
           </div>
         </div>
-
-        {/* Quantitative Rigor Strip (Adjacency & Evidence) */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-12 mt-12 border-t border-slate-200">
-          <div className="text-center sm:text-left">
-            <div className="text-2xl sm:text-3xl font-bold text-slate-900 font-mono tabular-nums tracking-tight">
-              +180
-            </div>
-            <div className="text-xs sm:text-sm text-slate-600 mt-0.5">
-              Ingenieros y líderes formados
-            </div>
-          </div>
-
-          <div className="text-center sm:text-left">
-            <div className="text-2xl sm:text-3xl font-bold text-blue-600 font-mono tabular-nums tracking-tight">
-              +48%
-            </div>
-            <div className="text-xs sm:text-sm text-slate-600 mt-0.5">
-              Incremento salarial promedio
-            </div>
-          </div>
-
-          <div className="text-center sm:text-left">
-            <div className="text-2xl sm:text-3xl font-bold text-slate-900 font-mono tabular-nums tracking-tight">
-              8 semanas
-            </div>
-            <div className="text-xs sm:text-sm text-slate-600 mt-0.5">
-              Acompañamiento ejecutivo
-            </div>
-          </div>
-
-          <div className="text-center sm:text-left">
-            <div className="text-2xl sm:text-3xl font-bold text-slate-900 font-mono tabular-nums tracking-tight">
-              8 plazas
-            </div>
-            <div className="text-xs sm:text-sm text-slate-600 mt-0.5">
-              Máximo por cohorte selectiva
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
