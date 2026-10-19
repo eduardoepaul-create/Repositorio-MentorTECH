@@ -1,12 +1,11 @@
 import React from 'react';
-import { AlertCircle, EyeOff, Layers, ArrowUpRight } from 'lucide-react';
 import { MISTAKES } from '../data/mentorTechData';
 
 interface MistakesSectionProps {
-  onOpenBooking: () => void;
+  onOpenBooking?: () => void;
 }
 
-export const MistakesSection: React.FC<MistakesSectionProps> = ({ onOpenBooking }) => {
+export const MistakesSection: React.FC<MistakesSectionProps> = () => {
   return (
     <section id="errores" className="py-20 md:py-28 bg-white border-b border-slate-200">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -77,24 +76,6 @@ export const MistakesSection: React.FC<MistakesSectionProps> = ({ onOpenBooking 
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Diagnostic Callout */}
-        <div className="mt-14 max-w-3xl mx-auto p-6 sm:p-8 bg-slate-900 text-white rounded-xl flex flex-col sm:flex-row items-center justify-between gap-6">
-          <div className="text-center sm:text-left">
-            <h4 className="text-base sm:text-lg font-bold text-white tracking-tight">
-              ¿Identificas al menos uno de estos patrones en tu día a día?
-            </h4>
-            <p className="text-xs sm:text-sm text-slate-300 mt-1 max-w-xl">
-              En la sesión de diagnóstico individual evaluamos exactamente en qué cuadrante de visibilidad estás y trazamos tu hoja de ruta.
-            </p>
-          </div>
-          <button
-            onClick={onOpenBooking}
-            className="w-full sm:w-auto px-6 py-3 text-xs font-semibold tracking-wide text-slate-900 bg-white hover:bg-slate-100 transition-colors rounded-md shadow-xs whitespace-nowrap shrink-0"
-          >
-            Evaluar Mi Caso en 30 Minutos
-          </button>
         </div>
       </div>
     </section>

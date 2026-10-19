@@ -19,20 +19,14 @@ export const Footer: React.FC = () => {
           </div>
 
           <div className="flex flex-wrap gap-8 text-xs font-medium text-slate-400">
-            <a href="#metodo" className="hover:text-white transition-colors">
-              El Método
-            </a>
-            <a href="#errores" className="hover:text-white transition-colors">
-              Errores Críticos
+            <a href="#agenda" className="hover:text-white transition-colors">
+              Agendar Sesión 1 a 1
             </a>
             <a href="#casos" className="hover:text-white transition-colors">
               Casos de Éxito
             </a>
-            <a href="#diagnostico" className="hover:text-white transition-colors">
-              Test Diagnóstico
-            </a>
-            <a href="#agenda" className="hover:text-white transition-colors">
-              Agendar Sesión 1 a 1
+            <a href="#errores" className="hover:text-white transition-colors">
+              Errores Críticos
             </a>
           </div>
         </div>

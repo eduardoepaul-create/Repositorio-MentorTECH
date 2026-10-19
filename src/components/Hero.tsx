@@ -114,10 +114,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onOpenVideo }) => {
             </button>
 
             <a
-              href="#diagnostico"
+              href="#casos"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 text-sm font-semibold text-slate-700 bg-white hover:bg-slate-100 border border-slate-300 hover:border-slate-400 transition-colors rounded-md whitespace-nowrap"
             >
-              <span>Hacer Test Diagnóstico (2 min)</span>
+              <span>Ver Casos de Éxito</span>
             </a>
           </div>
         </div>
